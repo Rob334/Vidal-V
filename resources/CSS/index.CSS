@@ -223,6 +223,28 @@ ol,ul,p{
     display:none;
 }
 
+
+a{        
+    
+    font-family: "Marcellus SC";
+    color: rgb(112,0,0);
+    background-color: white;
+    padding: 0 4px;
+    border-radius: 5px;
+}
+
+.link{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+
 /* TOOLBAR */
 .toolbar{
     color: rgba(9, 7 ,49, 0);
@@ -251,10 +273,10 @@ ol,ul,p{
     text-align: center;
 }
 
-.toolbar p,
+/* .toolbar p,
 .toolbar ul li{
-    /* background-color:rgba(255, 255, 255, 0.5); */
-}
+     background-color:rgba(255, 255, 255, 0.5); 
+} */
 
 .toolbar ul{
     list-style: none;
@@ -333,4 +355,5 @@ ol,ul,p{
     body{
         background-size: 1px;
     }
+
 }
