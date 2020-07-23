@@ -306,6 +306,15 @@ a{
     color: white;
 }
 
+.passport{
+    background-image: url(../images/Passport.jpg);
+    background-size: 100%;
+}
+
+.passport p{
+    background-color: rgba(9, 7, 49, 0.65);
+    text-align: center;
+}
 
 @media only screen and (max-width: 600px){
     h1{
