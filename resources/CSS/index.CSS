@@ -228,7 +228,7 @@ a{
     
     font-family: "Marcellus SC";
     color: rgb(112,0,0);
-    background-color: white;
+    background-color:rgba(255, 255, 255, 0.8);
     padding: 0 4px;
     border-radius: 5px;
 }
@@ -240,7 +240,7 @@ a{
     align-items: center;
     font-size: 30px;
     border-radius: 5px;
-    background-color: white;
+    /* background-color:rgba(255, 255, 255, 0.3); */
 }
 
 
@@ -314,6 +314,16 @@ a{
 .passport p{
     background-color: rgba(9, 7, 49, 0.65);
     text-align: center;
+}
+
+.music{
+    background-image: url(../images/Music.png);
+    background-size: 100%;
+}
+
+.music p{
+    text-align: center;
+    color: black;
 }
 
 @media only screen and (max-width: 600px){
