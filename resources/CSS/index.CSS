@@ -218,6 +218,17 @@ ol,ul,p{
     border-right: 7px solid rgb(9, 7 ,49);
 }
 
+.boxone{
+    background-image: url(../images/Chalet.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.boxone p{
+    background-color: rgba(9, 7,49, 0.4);
+}
+
 .endpic{
     background-color: rgb(9, 7 ,49);
     display:none;
